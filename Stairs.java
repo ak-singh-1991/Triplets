@@ -34,7 +34,7 @@ class Stairs {
 
 	public static void main(String[] args) {
 		int[] ways = new int[5];
-		//size of rray should be equal to 'n' i.e. top os stairs
+		//size of array should be equal to 'n' i.e. top os stairs
 		//because max storage we need when we jump only 1 step 
 		countStairs(5, ways, 0);
 	}
